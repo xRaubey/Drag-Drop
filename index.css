@@ -1,0 +1,46 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+#drag_area{
+    height: 200px;
+    width: 100%;
+    border: gray 1px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image_container{
+    width: 100%;
+    min-height: 300px;
+    border: gray 1px solid;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.image_container{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+    border: gray 1px solid;
+    border-radius:  5px;
+    background-color: lightgray;
+}
+
+.image_container:hover{
+    border: black 2px solid;
+}
+
+.image{
+    width: 100%;
+    height: auto;
+}
